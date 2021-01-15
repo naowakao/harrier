@@ -1,0 +1,998 @@
+/* CSS Document */
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, address, blockquote, pre, code, form, fieldset, legend, input, textarea, select, option, button, label, th, td, hr{
+	 margin: 0;
+    padding: 0;
+}
+
+body {
+    font-feature-settings: "palt";
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+    color: #333;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+#mainContainer img{
+	width: 100%;
+}
+
+.inner{
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 95%;
+}
+
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+/*
+-------------------------
+header
+-------------------------*/
+
+header{
+	padding: 5px;
+}
+
+header h1 img{
+	width: 160px !important;
+}
+
+h1{
+	float: left;
+}
+
+header .inner ul{
+	float: right;
+	padding-top: 10px;
+	display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+header .inner ul li{
+	width: 30px;
+	list-style: none;
+    float: left;
+    display: block;
+    padding-left: 10px;
+}
+
+/*
+-------------------------
+main
+-------------------------*/
+.black-ber{
+	background: #000000;
+	height: 20px;
+}
+
+article#content #main{
+	background-image: url("../images/m-06.png");
+	background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: auto auto;
+	padding-bottom: 100px;
+}
+
+#main .inner{
+	text-align: center;
+}
+
+.logo{
+	padding: 30px 0;
+	display: block;
+	max-width: 350px;
+    width: 50%;
+	margin: 0 auto;
+}
+
+.title{
+	display: block;
+	margin: 0 auto;
+    max-width: 815px;
+    width: 100%;
+}
+
+.car{
+	margin: -70px auto 0;
+	display: block;
+	max-width: 756px;
+    width: 100%;
+}
+strong{
+	display: block;
+	font-size: 30px;
+}
+
+#main p{
+	font-size: 20px;
+    line-height: 44px;
+	font-weight: bold;
+	margin: 5px auto 0;
+    line-height: 1.8em;
+}
+
+@media print, screen and (min-width: 768px){
+	.sp{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	article#content #main{
+		padding-bottom: 70px;
+		background-size: 900px;
+	}
+	.car{
+		width: 89%;
+		margin: -30px 0 0 -10px;
+	}
+	strong{
+		font-size: 18px;
+		font-weight: 800;
+		
+	}
+	#main p{
+		font-size: 13px;
+		font-weight: normal;
+	}
+}
+
+/*
+-------------------------
+s01
+-------------------------*/
+
+#s01{
+	background-color: #000;
+	text-align: center;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+#s01 p{
+	color: #fff;
+	margin: -10px auto;
+	padding-top: 80px;
+	font-size: 20px;
+    line-height: 44px;
+}
+
+#s01 h2{
+	color: #c6a550;
+	font-size: 32px;
+    margin-bottom: 8%;
+    font-weight: 600;
+}
+
+.present{
+	display: block;
+    position: absolute;
+	left: 46.5%;
+	top: -65px;
+}
+
+.bag{
+	margin-bottom: 10%;
+	max-width: 591px;
+    width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#s01 ul,#s03 ul{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 0;
+}
+
+#s01 .inner li,#s03 .inner li{
+	width: 32%;
+    margin-right: 2%;
+    float: left;
+    list-style: none;
+	position: relative;
+}
+
+#s01 .inner li:last-child,#s03 .inner li:last-child{
+	margin-bottom: 0;
+    margin-right: 0;
+}
+
+#s01 .inner ul img,#s03 .inner ul img{
+	width: 30px;
+	position: absolute;
+    top: 33px;
+    left: 30px;
+}
+
+#s01 .inner a,#s03 .inner a{
+	display: block;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+	border-radius: 50px;
+	border-bottom: 4px solid #6c4e02;
+    font-size: 20px;
+    line-height: 100px;
+	padding-left: 8%;
+}
+
+@media screen and (max-width: 768px){
+	#s01{
+		padding-bottom: 50px;
+	}
+	.present{
+		left: 38%;
+        top: -50px;
+        width: 25%;
+	}
+	#s01 p{
+		font-size: 13px;
+		padding-top: 50px;
+	}
+	#s01 h2{
+		font-size: 18px;
+	}
+	#s01 .inner li ,#s03 .inner li{
+		float: none;
+		width: 100%;
+		padding-bottom: 10px;
+		position: relative;
+	}
+	#s01 .inner a,#s03 .inner a{
+		line-height: 40px;
+		font-size: 14px;
+	}
+	#s01 .inner ul img,#s03 .inner ul img{
+		position: absolute;
+        left: 25px;
+        top: 10px;
+        font-size: 14px;
+		width: 20px;
+	}
+}
+
+/*
+-------------------------
+s02
+-------------------------*/
+
+#s02{
+	padding: 100px 0;
+}
+
+#s02 p{
+	font-size: 20px;
+	color: #c6a550;
+	margin-bottom: 0px;
+	display: block;
+}
+
+#s02 h2{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 15px;
+}
+@media screen and (max-width: 768px){
+	#s02{
+	    padding: 50px 0;
+    }
+    #s02 p{
+        font-size: 14px;
+    }
+    #s02 h2{
+		font-size: 35px;
+		margin: 10px 0;
+    }
+}
+
+/*
+-------------------------
+s03
+-------------------------*/
+
+article#content #s03{
+	background-image: url("../images/m-06.png");
+	background-repeat: repeat-x;
+    background-position: top center;
+    background-size: auto auto;
+    background-color: #c6a550;
+	padding-bottom: 100px;
+	padding-top: 130px;
+	color: #fff;
+}
+
+#s03 h2{
+	font-size: 30px;
+}
+
+#s03 p{
+	margin: 10px 0 40px;
+	font-size: 20px;
+}
+@media screen and (max-width: 768px){
+	#s03 .inner li{
+		float: none;
+		width: 100%;
+		
+	}
+	article#content #s03{
+		padding-top: 21%;
+        padding-bottom: 15%;
+        background-position: top right 37%;
+        background-size: auto 40%;
+	}
+	#s03 p{
+		font-size: 14px;
+	}
+}
+/*
+-------------------------
+s04
+-------------------------*/
+
+#s04{
+    padding-bottom: 100px;
+}
+
+.topdown{
+	margin-top: 100px;
+}
+
+.icon-box {
+	max-width: 40px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    width: 8%;
+    font-size: 0;
+    line-height: 0;
+}
+
+#s04 h2{
+	font-size: 26px;
+	margin-bottom: 50px;
+}
+
+#s04 .instagram-app h3{
+	font-weight: 500;
+	color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#c82f9b), to(#740eee));
+    background-image: -webkit-linear-gradient(left, #c82f9b 0%, #740eee 100%);
+    background-image: linear-gradient(to right, #c82f9b 0%, #740eee 100%);
+}
+
+#s04 .facebook-app h3{
+	font-weight: 500;
+	color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#1877f1), to(#0151b8));
+    background-image: -webkit-linear-gradient(left, #1877f1 0%, #0151b8 100%);
+    background-image: linear-gradient(to right, #1877f1 0%, #0151b8 100%);
+
+}
+
+#s04 .twitter-app h3{
+	font-weight: 500;
+	color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#1da2f2), to(#0ed6ef));
+    background-image: -webkit-linear-gradient(left, #1da2f2 0%, #0ed6ef 100%);
+    background-image: linear-gradient(to right, #1da2f2 0%, #0ed6ef 100%);
+
+}
+
+.step {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+    margin-top: 20px;
+	list-style: none;
+}
+
+.step li{
+	float: left;
+	border: 1px solid #c6a550;
+	width: calc(31.3% - 2px);
+	background-color: #f9f6ed;
+	min-height: 230px;
+}
+
+.step li .step-box{
+	background-color: #fff;
+	color:#c6a550;
+	border-bottom: 1px solid #c6a550;
+	font-size: 16px;
+	line-height: 58px;
+	display: block;
+}
+
+.step li p{
+	font-size: 14px;
+    text-align: left;
+    margin: 20px;
+}
+.step li p strong{
+	color: #ff0000;
+	font-size: 14px;
+	display: inline-block;
+}
+
+#s04 .app-comp{
+	max-width: 134px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+
+.step li:nth-child(even){
+    background-color: transparent;
+    width: 3%;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url(../images/03-03.png);
+    background-position: center center;
+    background-size: 10px auto;
+}
+
+.step li:nth-child(3){
+	position: relative;
+}
+
+
+.step li:last-child{
+    margin-right: 0;
+	position: relative;
+	top: -24px;
+}
+
+.step li:nth-child(3) span{
+	margin-top: -24px;
+}
+
+.step-btn{
+	color: #fff;
+    text-align: center;
+    background-color: #c6a550;
+    border: none;
+    border-bottom: 4px solid #8c714a;
+	border-radius: 25px;
+	padding: 14px 20px;
+	font-size: 12px;
+	position: relative;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+	top: 10px;
+}
+
+.btn-padding{
+
+}
+
+.btn2{
+	top: 30px;
+    padding: 14px 80px;
+}
+
+.btndown1{
+	top: 30px;
+	padding: 14px 60px;
+}
+
+.btndown2{
+	top: 50px;
+}
+
+.instagram-app h4{
+	color: #c92f9a;
+	margin-bottom: 30px;
+}
+
+.facebook-app h4{
+	color: #1877f2;
+	margin-bottom: 30px;
+}
+
+.twitter-app h4{
+	color: #1da1f2;
+	margin-bottom: 30px;
+}
+
+#s04 h4 span{
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+    position: relative;
+}
+
+#s04 h4 span::before{
+	content: "|";
+	transform: rotate( -30deg);
+    left: -36px;
+	font-size: 35px;
+    display: block;
+    position: absolute;
+    top: -15px;
+	font-weight: 200;
+}
+
+#s04 h4 span::after{
+	content: "|";
+    transform: rotate( 30deg);
+    right: -36px;
+    font-size: 35px;
+    display: block;
+    position: absolute;
+    top: -15px;
+    font-weight: 200;
+}
+
+
+
+#s04 h3 span{
+	font-size: 16px;
+	display: block;
+}
+
+.app-winning-box{
+	border: solid 1px #8c714a;
+	background-color: #f9f6ed;
+	padding: 40px 15px 35px;
+	margin-bottom: 30px;
+}
+
+.app-winning-box h5{
+	color: #ed4f2a;
+	font-size: 24px;
+}
+
+.winning-up{
+	display: block;
+	margin: 45px auto 35px;
+	max-width: 284px;
+    width: 70%;
+}
+
+.app-winning-box p strong{
+	display: inline-block;
+    font-size: 14px; 
+	color: #ff0000;
+}
+
+.attention{
+	text-align: left;
+	display: block;
+	margin-top: 60px
+}
+
+.attention span{
+	display: block;
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.attention{
+	font-size: 12px;
+}
+
+.copy{
+	padding: 15px 65px;
+	top: 30px;
+}
+
+.instagram-app a,.facebook-app a,
+.twitter-app a{
+	color: #000000;
+	margin-top: 30px;
+}
+
+
+.container {
+  margin: 0 auto;
+  text-align: left;
+}
+.container input {
+  display: none;
+}
+.container label {
+  color: #4776AF;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.container label:hover {
+  filter: opacity(70%);
+}
+/*
+.container .top {
+  padding: 10px;
+  background: #fff;
+}
+*/
+.container .btm {
+  transition: 0.2s;
+  height: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: all 1s;
+  display: none;
+}
+
+.container .btm.active_box {
+  display: block;
+  overflow: auto;
+  transition: all 1s;
+}
+
+.container .topbtn,
+.container .btmbtn {
+  text-align: left;
+  display: block;
+  width: 80px;
+  margin: 0;
+}
+.container .topbtn2,
+.container .btmbtn2 {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #c6a550;
+  border-bottom: 4px solid #8c714a;
+  color: #fff;
+  font-size: 24px;
+  line-height: 80px;
+  display: block;
+}
+
+.container .btmbtn2{
+	line-height: 40px;
+	border-bottom: 0;
+	font-size: 16px;
+}
+
+.container input:checked + .btm {
+  height: auto;
+  padding: 0;
+  background: #fff;
+  border: solid 1px #c6a550;
+}
+
+/***************
+タブボタン設定
+***************/
+/*通常*/
+.container .topbtn2 {
+	background-image: url("../images/04-01.png");
+    background-repeat: no-repeat;
+    background-position: center right 30px;
+}
+/*展開時*/
+.container .topbtn2.active_btn {
+    background-image: url("../images/04-02.png");
+    background-repeat: no-repeat;
+    background-position: center right 30px;
+}
+/*タブボタン設定 end*/
+
+
+.container ul li{
+	font-size: 14px;
+    background-color: #fff;
+    height: auto;
+	float: none;
+	padding: 20px;
+}
+
+
+.btm li strong{
+	color: #c6a550;
+	font-size: 14px;
+}
+
+.btm li a{
+	color: #0066ff;
+}
+
+@media screen and (max-width: 768px){
+	#s04{
+		padding: 50px 0;
+	}
+	.topdown{
+		margin-top: 0;
+		margin-bottom: 15%;
+	}
+	#s04 h2{
+		font-size: 24px;
+		margin-bottom: 25px;
+		font-weight: 500;
+	}
+	#s04 .instagram-app h3,#s04 .facebook-app h3,
+	#s04 .twitter-app h3{
+		padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+	}
+	#s04 h3 span{
+		font-size: 14px;
+	}
+	#s04 .instagram-app h3,#s04 .facebook-app h3,
+	#s04 .twitter-app h3{
+		padding: 20px;
+	}
+	.app-winning-box h5{
+		font-size: 20px;
+        font-weight: 500;
+	}
+	.app-winning-box p{
+		font-size: 15px;
+	}
+	.step{
+		margin-bottom: 20px;
+	}
+	.instagram-app h4,.facebook-app h4,
+	.twitter-app h4{
+		margin-bottom: 20px;
+	}
+	.step li{
+		width: calc(100% - 2px);
+	}
+	.step li:nth-child(even){
+		transform: rotate(90deg);
+		width: 100%;
+        min-height: 50px;
+	}
+	.step li:last-child{
+		top: 0;
+	}
+	.step li:nth-child(3){
+		tab-size: -23px;
+		margin-top: -20px;
+	}
+	.btn3{
+		top: 50px;
+		padding: 14px 80px;
+	}
+	.copy{
+		padding: 15px 20px;
+	}
+	.hashtag{
+		font-size: 12px;
+	}
+	.attention{
+		font-size: 10px;
+		letter-spacing: 1.5px;
+	}
+	.attention span{
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.winning-up{
+		margin: 25px auto 20px;
+	}
+	#s04 a{
+		font-size: 12px;
+	}
+	.container .topbtn2, 
+	.container .btmbtn2{
+		font-size: 20px;
+		line-height: 40px;
+	}
+}
+
+/*
+-------------------------
+s05
+-------------------------*/
+
+#s05{
+	background-image: url("../images/05-01.png");
+	padding: 100px 0;
+	color: #fff;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+#s05 p{
+	font-size: 20px;
+    margin-bottom: 3%;
+}
+
+#s05 h2{
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	position: relative;
+    display: block;
+}
+
+#s05 .tweet-title{
+	display: inline-block;
+	position: relative;
+}
+
+#s05 .phone{
+	display: block;
+    position: absolute;
+    right: 8%;
+    top: -100%;
+    max-width: 114px;
+    width: 30%;
+}
+
+#s05 ul{
+	position: relative;
+    overflow: hidden;
+}
+
+#s05 li{
+	width: 22.7%;
+	margin-right: 3%;
+	margin-bottom: 2.6%;
+	float: left;
+	list-style: none;
+}
+
+#s05 li:nth-child(4n){
+	margin-right: 0;
+}
+
+@media screen and (max-width: 768px){
+	#s05{
+		padding: 50px 0 10px;
+		background-size: 100%;
+	}
+	#s05 p{
+		font-size: 14px;
+	}
+	#s05 h2{
+		font-size: 28px;
+		margin-bottom: 20px;
+	}
+	#s05 .phone{
+		right: 2%;
+        top: -90%;
+        max-width: 50px;
+	}
+	#s05 li{
+		width: 49%;
+		margin-right: 1%;
+		margin-bottom: -0.5%;
+	}
+	#s05 li:nth-child(2n){
+	margin-right: 0;
+    }
+}
+
+/*
+-------------------------
+s06
+-------------------------*/
+
+#s06{
+	padding-top: 100px;
+}
+
+#s06 h2{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#s06 p{
+	margin: 50px 0;
+	font-size: 20px;
+	display: block;
+	line-height: 2.5em;
+}
+
+.tweet-box{
+	position: relative;
+    overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.tweet-box li,.link-box li{
+	float: left;
+	list-style: none;
+
+}
+.tweet-box li{
+    width: 22.7%;
+	margin-right: 3%;
+}
+
+.tweet-box li:last-child,.link-box li:last-child{
+	margin-right: 0;
+}
+
+.harrier{
+	margin-bottom: 100px;
+}
+
+.link-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.link-box li{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 32%;
+	margin-right: 2%;
+}
+
+.attention2{
+	padding-top: 5px;
+    border-top: 1px solid #ccc;
+	display: block;
+    font-size: 12px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+footer{
+	background-color: #00574c;
+	color: #fff;
+	text-align: left;
+	font-size: 10px;
+	line-height: 40px;
+}
+
+@media screen and (max-width: 768px){
+	#s06{
+		padding: 50px 0 10px;
+	}
+	#s06 h2{
+		font-size: 24px;
+	}
+	#s06 p{
+		font-size: 14px;
+		line-height: 1.5em;
+		margin: 20px 0 30px;
+	}
+	.tweet-box{
+		margin-bottom: 30px;
+	}
+	.tweet-box li{
+		width: 49%;
+		margin-right: 1%;
+	}
+	.tweet-box li:nth-child(2n){
+		margin-right: 0;
+	}
+	.link-box {
+		margin: 15px 0;
+	}
+	.link-box li{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	.attention2{
+		margin-bottom: 10px;
+	    font-size: 10px;
+	}
+	footer{
+		text-align: center;
+	}
+}
